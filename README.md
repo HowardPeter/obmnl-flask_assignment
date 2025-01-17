@@ -18,6 +18,14 @@ This Flask web application serves as a simple example of a web server built usin
 - **Edit Transaction**: A form to update a transaction.
 - **Delele Transaction**: A form to delete a transaction.
 
+## Reuquired Package
+
+Flask framework is required to run this application.
+To install Flask, open termial and run this command:
+    ```bash
+    pip install flask
+    ```
+
 ## Usage
 
 1. Open terminal and run the application:
