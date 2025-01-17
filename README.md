@@ -22,8 +22,8 @@ This Flask web application serves as a simple example of a web server built usin
 
 Flask framework is required to run this application.
 
-To install Flask, open termial and run this command:
-    ```bash
+To install Flask, open the terminal and run this command:
+    ```
     pip install flask
     ```
 
