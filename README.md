@@ -18,13 +18,6 @@ This Flask web application serves as a simple example of a web server built usin
 - **Edit Transaction**: A form to update a transaction.
 - **Delele Transaction**: A form to delete a transaction.
 
-## Functions
-
-- `create_app()`: Initializes the Flask application and sets up the routes.
-- `index()`: Handles the route for the home page.
-- `about()`: Handles the route for the about page.
-- `contact()`: Handles the route for the contact page and processes form submissions.
-
 ## Usage
 
 1. Open terminal and run the application:
