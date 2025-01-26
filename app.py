@@ -19,7 +19,7 @@ transactions = [
 @app.route('/')
 def get_transactions():
     """Retrieve and display the list of transactions."""
-    return render_template('transactions.html', transactions=transactions)
+    return render_template('index.html', transactions=transactions)
 
 
 @app.route('/create', methods=['GET', 'POST'])
