@@ -3,7 +3,10 @@
 
 name: Python application deploy
 
-on: 
+on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
