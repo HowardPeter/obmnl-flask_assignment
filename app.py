@@ -57,9 +57,10 @@ def edit_transaction(transaction_id):
 @app.route('/delete/<int:transaction_id>')
 def delete_transaction(transaction_id):
     """Delete a transaction."""
-    global transactions
-    # Create a copy of the list and filter out the transaction to delete
-    transactions = [transaction for transaction in transactions if transaction['id'] != transaction_id]
+    transactions[:] = [
+        transaction for transaction in transactions
+        if transaction['id'] != transaction_id
+    ]
     return redirect(url_for('get_transactions'))
 
 
