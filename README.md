@@ -34,3 +34,17 @@ To install Flask, open the terminal and run this command:
     python app.py
     ```
 2. Open your web browser and go to `http://127.0.0.1:5000`.
+
+## Running with Docker
+
+To run the application using Docker, follow these steps:
+
+1. Build the Docker image:
+    ```bash
+    docker build -t flask_assignment .
+    ```
+2. Run the Docker container:
+    ```bash
+    docker run -p 5000:5000 flask_assignment
+    ```
+3. Open your web browser and go to `http://127.0.0.1:5000`.
